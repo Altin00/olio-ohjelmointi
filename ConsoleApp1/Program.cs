@@ -19,6 +19,7 @@ namespace harjoitus1
             auto.Nopeus = 200;
             auto.Renkaat = 4;
 
+
             orava.Nimi = "BMW";
             orava.Nopeus = 100;
             oeava.Renkaat = 2;
