@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C8909B97-80FC-4BE2-AA4B-587556D59F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesr", "Tesr\Tesr.csproj", "{D4863AE5-056D-4885-9775-DD688AE3874A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 2", "harjoitus 2\harjoitus 2.csproj", "{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 3", "Harjoitus 3\Harjoitus 3.csproj", "{5AD9ABAF-A97D-4E80-938D-48CADD43C866}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 4", "Harjoitus 4\Harjoitus 4.csproj", "{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 5 K", "Harjoitus 5 K\Harjoitus 5 K.csproj", "{35644033-EFBD-44F8-BDC7-8C41E916DE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 6", "Harjoitus 6\Harjoitus 6.csproj", "{8BA18003-942D-4E60-B7AA-95E3053F843D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{C8909B97-80FC-4BE2-AA4B-587556D59F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8909B97-80FC-4BE2-AA4B-587556D59F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8909B97-80FC-4BE2-AA4B-587556D59F9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4863AE5-056D-4885-9775-DD688AE3874A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4863AE5-056D-4885-9775-DD688AE3874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4863AE5-056D-4885-9775-DD688AE3874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4863AE5-056D-4885-9775-DD688AE3874A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA18003-942D-4E60-B7AA-95E3053F843D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA18003-942D-4E60-B7AA-95E3053F843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA18003-942D-4E60-B7AA-95E3053F843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA18003-942D-4E60-B7AA-95E3053F843D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
