@@ -66,3 +66,5 @@ class Radio
         Console.WriteLine($"Radio on {(Päällä ? "päällä" : "pois päältä")}, äänenvoimakkuus: {Äänenvoimakkuus}, taajuus: {Taajuus}");
     }
 }
+
+
