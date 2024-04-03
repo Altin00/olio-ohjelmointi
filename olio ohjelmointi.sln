@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesr", "Tesr\Tesr.csproj", "{D4863AE5-056D-4885-9775-DD688AE3874A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 5", "harjoitus 5\harjoitus 5.csproj", "{A1B650CF-0DCB-4E81-9143-4A40BFD188D8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 2", "harjoitus 2\harjoitus 2.csproj", "{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 3", "Harjoitus 3\Harjoitus 3.csproj", "{5AD9ABAF-A97D-4E80-938D-48CADD43C866}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 4", "Harjoitus 4\Harjoitus 4.csproj", "{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 5 K", "Harjoitus 5 K\Harjoitus 5 K.csproj", "{35644033-EFBD-44F8-BDC7-8C41E916DE7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{D4863AE5-056D-4885-9775-DD688AE3874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4863AE5-056D-4885-9775-DD688AE3874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4863AE5-056D-4885-9775-DD688AE3874A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1B650CF-0DCB-4E81-9143-4A40BFD188D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1B650CF-0DCB-4E81-9143-4A40BFD188D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1B650CF-0DCB-4E81-9143-4A40BFD188D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1B650CF-0DCB-4E81-9143-4A40BFD188D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35644033-EFBD-44F8-BDC7-8C41E916DE7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
