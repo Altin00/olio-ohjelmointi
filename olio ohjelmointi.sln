@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 14", "Harjoitus 1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 15 (WPF)", "Harjoitus 15 (WPF)\Harjoitus 15 (WPF).csproj", "{02A14043-467D-43F8-B2A6-4DBC1A278A65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 16 (WPF)", "harjoitus 16 (WPF)\harjoitus 16 (WPF).csproj", "{283B5DCF-ADBB-40E3-819A-7A2D2AB02B7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{02A14043-467D-43F8-B2A6-4DBC1A278A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02A14043-467D-43F8-B2A6-4DBC1A278A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02A14043-467D-43F8-B2A6-4DBC1A278A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283B5DCF-ADBB-40E3-819A-7A2D2AB02B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283B5DCF-ADBB-40E3-819A-7A2D2AB02B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283B5DCF-ADBB-40E3-819A-7A2D2AB02B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283B5DCF-ADBB-40E3-819A-7A2D2AB02B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
