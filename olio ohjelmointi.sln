@@ -3,31 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C8909B97-80FC-4BE2-AA4B-587556D59F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C8909B97-80FC-4BE2-AA4B-587556D59F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 2", "harjoitus 2\harjoitus 2.csproj", "{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harjoitus 2", "harjoitus 2\harjoitus 2.csproj", "{AC956E1D-1101-40BA-BDC2-B838D36C7C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 3", "Harjoitus 3\Harjoitus 3.csproj", "{5AD9ABAF-A97D-4E80-938D-48CADD43C866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 3", "Harjoitus 3\Harjoitus 3.csproj", "{5AD9ABAF-A97D-4E80-938D-48CADD43C866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 4", "Harjoitus 4\Harjoitus 4.csproj", "{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 4", "Harjoitus 4\Harjoitus 4.csproj", "{FA2F6366-EDEB-47AF-9AE2-6A76F97BA8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 5 K", "Harjoitus 5 K\Harjoitus 5 K.csproj", "{35644033-EFBD-44F8-BDC7-8C41E916DE7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 5 K", "Harjoitus 5 K\Harjoitus 5 K.csproj", "{35644033-EFBD-44F8-BDC7-8C41E916DE7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 6", "Harjoitus 6\Harjoitus 6.csproj", "{8BA18003-942D-4E60-B7AA-95E3053F843D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 6", "Harjoitus 6\Harjoitus 6.csproj", "{8BA18003-942D-4E60-B7AA-95E3053F843D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 7", "Harjoitus 7\Harjoitus 7.csproj", "{7FC74106-6E06-4560-B1F9-B7C3591722B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 7", "Harjoitus 7\Harjoitus 7.csproj", "{7FC74106-6E06-4560-B1F9-B7C3591722B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 8", "Harjoitus 8\Harjoitus 8.csproj", "{30BE5376-9EC1-4363-B373-356B142A6B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 8", "Harjoitus 8\Harjoitus 8.csproj", "{30BE5376-9EC1-4363-B373-356B142A6B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 9 KT", "Harjoitus 9 KT\Harjoitus 9 KT.csproj", "{71A11553-DD17-4F00-8E49-A90F13F628AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 9 KT", "Harjoitus 9 KT\Harjoitus 9 KT.csproj", "{71A11553-DD17-4F00-8E49-A90F13F628AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 9", "Harjoitus 9\Harjoitus 9.csproj", "{B9C9A130-D9C6-4C82-A566-B27CBD4C56B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 9", "Harjoitus 9\Harjoitus 9.csproj", "{B9C9A130-D9C6-4C82-A566-B27CBD4C56B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 10", "Harjoitus 10\Harjoitus 10.csproj", "{4249A30F-CE4C-4E83-A522-0134890327F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 10", "Harjoitus 10\Harjoitus 10.csproj", "{4249A30F-CE4C-4E83-A522-0134890327F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 11", "Harjoitus 11\Harjoitus 11.csproj", "{55BA6FE2-A5F9-4966-87E9-1ACAFBAA40AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 11", "Harjoitus 11\Harjoitus 11.csproj", "{55BA6FE2-A5F9-4966-87E9-1ACAFBAA40AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 12", "Harjoitus 12\Harjoitus 12.csproj", "{9A055171-C976-4ED7-89C3-EA41AC7F9CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 12", "Harjoitus 12\Harjoitus 12.csproj", "{9A055171-C976-4ED7-89C3-EA41AC7F9CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 13", "Harjoitus 13\Harjoitus 13.csproj", "{E16DE68E-F313-460B-ADB0-ED4821817C58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9A055171-C976-4ED7-89C3-EA41AC7F9CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A055171-C976-4ED7-89C3-EA41AC7F9CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A055171-C976-4ED7-89C3-EA41AC7F9CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16DE68E-F313-460B-ADB0-ED4821817C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16DE68E-F313-460B-ADB0-ED4821817C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16DE68E-F313-460B-ADB0-ED4821817C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16DE68E-F313-460B-ADB0-ED4821817C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

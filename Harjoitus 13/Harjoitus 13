@@ -1,0 +1,106 @@
+
+using System;
+using System.Collections.Generic;
+
+class Pelaaja
+{
+    public string Etunimi { get; set; }
+    public string Sukunimi { get; set; }
+    public int PelaajaNumero { get; set; }
+
+    public Pelaaja(string etunimi, string sukunimi, int pelaajaNumero)
+    {
+        Etunimi = etunimi;
+        Sukunimi = sukunimi;
+        PelaajaNumero = pelaajaNumero;
+    }
+}
+
+class Joukkue
+{
+    public string Nimi { get; set; }
+    public string Kotikaupunki { get; set; }
+    private Dictionary<int, Pelaaja> Pelaajat { get; set; }
+
+    public Joukkue(string nimi, string kotikaupunki)
+    {
+        Nimi = nimi;
+        Kotikaupunki = kotikaupunki;
+        Pelaajat = new Dictionary<int, Pelaaja>();
+    }
+
+    public Pelaaja HaePelaaja(int pelaajaNumero)
+    {
+        try
+        {
+            return Pelaajat[pelaajaNumero];
+        }
+        catch (KeyNotFoundException)
+        {
+            Console.WriteLine($"Pelaajaa numerolla {pelaajaNumero} ei lˆydy.");
+            return null;
+        }
+    }
+
+    public void Lis‰‰Pelaaja(Pelaaja pelaaja)
+    {
+        try
+        {
+            Pelaajat.Add(pelaaja.PelaajaNumero, pelaaja);
+            Console.WriteLine($"Pelaaja {pelaaja.Etunimi} {pelaaja.Sukunimi} lis‰tty joukkueeseen.");
+        }
+        catch (ArgumentException)
+        {
+            Console.WriteLine($"Pelaaja numerolla {pelaaja.PelaajaNumero} on jo joukkueessa.");
+        }
+    }
+
+    public void PoistaPelaaja(int pelaajaNumero)
+    {
+        if (Pelaajat.Remove(pelaajaNumero))
+        {
+            Console.WriteLine($"Pelaaja numerolla {pelaajaNumero} poistettu joukkueesta.");
+        }
+        else
+        {
+            Console.WriteLine($"Pelaajaa numerolla {pelaajaNumero} ei lˆydy joukkueesta.");
+        }
+    }
+
+    public List<Pelaaja> HaePelaajat()
+    {
+        return new List<Pelaaja>(Pelaajat.Values);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Joukkue joukkue = new Joukkue("Esimerkkijoukkue", "Esimerkkikaupunki");
+
+        Pelaaja pelaaja1 = new Pelaaja("Matti", "Meik‰l‰inen", 10);
+        Pelaaja pelaaja2 = new Pelaaja("Teppo", "Testaaja", 20);
+
+        joukkue.Lis‰‰Pelaaja(pelaaja1);
+        joukkue.Lis‰‰Pelaaja(pelaaja2);
+
+        Console.WriteLine("Joukkueen pelaajat:");
+        List<Pelaaja> pelaajat = joukkue.HaePelaajat();
+        foreach (var pelaaja in pelaajat)
+        {
+            Console.WriteLine($"Pelaaja: {pelaaja.Etunimi} {pelaaja.Sukunimi}, Numero: {pelaaja.PelaajaNumero}");
+        }
+
+        Console.WriteLine("\nPoistetaan pelaaja numero 10...");
+        joukkue.PoistaPelaaja(10);
+
+        Console.WriteLine("\nJoukkueen pelaajat:");
+        pelaajat = joukkue.HaePelaajat();
+        foreach (var pelaaja in pelaajat)
+        {
+            Console.WriteLine($"Pelaaja: {pelaaja.Etunimi} {pelaaja.Sukunimi}, Numero: {pelaaja.PelaajaNumero}");
+        }
+    }
+}
+
