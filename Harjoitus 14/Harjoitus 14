@@ -1,0 +1,102 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        string tiedostoPolku = "muistiinpanot.txt";
+        List<string> muistiinpanot = new List<string>();
+
+        Console.WriteLine("Tervetuloa muistiinpano-ohjelmaan!");
+
+        while (true)
+        {
+            Console.WriteLine("Käytettävissä olevat komennot:");
+            Console.WriteLine("1. Uusi muistiinpano");
+            Console.WriteLine("2. Tulosta muistiinpanot");
+            Console.WriteLine("3. Tyhjennä muistiinpanot");
+            Console.WriteLine("4. Lopeta");
+
+            Console.Write("Valitse komento (1-4): ");
+            string valinta = Console.ReadLine();
+
+            switch (valinta)
+            {
+                case "1":
+                    Console.Write("Syötä uusi muistiinpano: ");
+                    string uusiMuistiinpano = Console.ReadLine();
+                    muistiinpanot.Add(uusiMuistiinpano);
+                    TallennaMuistiinpanotTiedostoon(muistiinpanot, tiedostoPolku);
+                    Console.WriteLine("Muistiinpano tallennettu!");
+                    break;
+
+                case "2":
+                    TulostaMuistiinpanotTiedostosta(tiedostoPolku);
+                    break;
+
+                case "3":
+                    TyhjennäTiedosto(tiedostoPolku);
+                    Console.WriteLine("Muistiinpanot tyhjennetty!");
+                    break;
+
+                case "4":
+                    Console.WriteLine("Ohjelma suljetaan.");
+                    return;
+
+                default:
+                    Console.WriteLine("Virheellinen valinta. Valitse 1-4.");
+                    break;
+            }
+        }
+    }
+
+    static void TallennaMuistiinpanotTiedostoon(List<string> muistiinpanot, string tiedostoPolku)
+    {
+        try
+        {
+            File.WriteAllLines(tiedostoPolku, muistiinpanot);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Virhe tallennettaessa tiedostoon: {ex.Message}");
+        }
+    }
+
+    static void TulostaMuistiinpanotTiedostosta(string tiedostoPolku)
+    {
+        try
+        {
+            if (File.Exists(tiedostoPolku))
+            {
+                string[] muistiinpanoTiedot = File.ReadAllLines(tiedostoPolku);
+                Console.WriteLine("\nMuistiinpanot tiedostosta:");
+                foreach (string muistiinpano in muistiinpanoTiedot)
+                {
+                    Console.WriteLine(muistiinpano);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Tiedostoa ei ole olemassa tai siinä ei ole muistiinpanoja.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Virhe tulostettaessa tiedostosta: {ex.Message}");
+        }
+    }
+
+    static void TyhjennäTiedosto(string tiedostoPolku)
+    {
+        try
+        {
+            File.WriteAllText(tiedostoPolku, string.Empty);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Virhe tyhjennettäessä tiedostoa: {ex.Message}");
+        }
+    }
+}
