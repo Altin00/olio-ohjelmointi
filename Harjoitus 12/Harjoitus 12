@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<string> kortit = LuoKorttipakka();
+        TulostaKortit("Alkuperäinen korttipakka:", kortit);
+        
+        SekoitaKortit(kortit);
+        TulostaKortit("Sekoitetut kortit:", kortit);
+    }
+
+    static List<string> LuoKorttipakka()
+    {
+        List<string> kortit = new List<string>();
+
+        string[] maat = { "Hertta", "Ruutu", "Risti", "Pata" };
+        string[] numerot = { "Ässä", "Kaksi", "Kolme", "Neljä", "Viisi", "Kuusi", "Seitsemän", "Kahdeksan", "Yhdeksän", "Kymmenen", "Jätkä", "Rouva", "Kuningas" };
+
+        foreach (string maa in maat)
+        {
+            foreach (string numero in numerot)
+            {
+                kortit.Add(numero + " " + maa);
+            }
+        }
+
+        return kortit;
+    }
+
+    static void SekoitaKortit(List<string> kortit)
+    {
+        Random rng = new Random();
+        int n = kortit.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            string arvo = kortit[k];
+            kortit[k] = kortit[n];
+            kortit[n] = arvo;
+        }
+    }
+
+    static void TulostaKortit(string otsikko, List<string> kortit)
+    {
+        Console.WriteLine(otsikko);
+        foreach (string kortti in kortit)
+        {
+            Console.WriteLine(kortti);
+        }
+        Console.WriteLine();
+    }
+}
