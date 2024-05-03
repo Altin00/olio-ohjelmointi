@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 19", "harjoitus 1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harjoitus 17 wpf", "harjoitus 17 wpf\harjoitus 17 wpf.csproj", "{DC45F7AF-3481-417E-BE2E-E9D8A3862E62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 18 wpf", "Harjoitus 18 wpf\Harjoitus 18 wpf.csproj", "{F8357E66-8A76-42E6-9253-242BC7DD2052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{DC45F7AF-3481-417E-BE2E-E9D8A3862E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC45F7AF-3481-417E-BE2E-E9D8A3862E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC45F7AF-3481-417E-BE2E-E9D8A3862E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8357E66-8A76-42E6-9253-242BC7DD2052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8357E66-8A76-42E6-9253-242BC7DD2052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8357E66-8A76-42E6-9253-242BC7DD2052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8357E66-8A76-42E6-9253-242BC7DD2052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

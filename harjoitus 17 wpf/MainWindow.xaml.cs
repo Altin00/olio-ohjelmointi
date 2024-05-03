@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
+using System.Windows.Data; 
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Shapes; 
 
 namespace harjoitus_17_wpf
 {
@@ -19,11 +19,11 @@ namespace harjoitus_17_wpf
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     /// ¨Käytetty chatgpt apuna
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window        
     {
-        float lämpötila = 20;
-        bool keittiönValot = false;
-        bool olohuoneenValot = false;
+        float lämpötila = 20; 
+        bool keittiönValot = false; 
+        bool olohuoneenValot = false;  
         bool oviLukossa = true;
 
         public MainWindow()
@@ -70,7 +70,7 @@ namespace harjoitus_17_wpf
                 if (txt_Termostaatti.Text == "")
                     return;
 
-                lämpötila = float.Parse(txt_Termostaatti.Text);
+                lämpötila = float.Parse(txt_Termostaatti.Text); 
                 PäivitäTilat();
             }
         }
