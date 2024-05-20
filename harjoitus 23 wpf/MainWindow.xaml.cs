@@ -25,7 +25,7 @@ namespace harjoitus_23_wpf
 
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
 
 
             kiuas.VaihdaLämpötila(10);
